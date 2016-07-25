@@ -8,3 +8,4 @@ FROM wnameless/oracle-xe-11g:latest
 ADD assets/ /tmp/assets/
 
 RUN chmod +x /tmp/assets/setup.sh && /tmp/assets/setup.sh && rm -rf /tmp/assets
+
