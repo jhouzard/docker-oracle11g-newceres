@@ -1,0 +1,4 @@
+alter system disable restricted session;
+
+CREATE USER CERES_OWNER IDENTIFIED BY password;
+GRANT CREATE SESSION, CONNECT, RESOURCE TO CERES_OWNER;
